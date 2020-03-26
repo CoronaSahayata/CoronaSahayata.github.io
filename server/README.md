@@ -2,9 +2,17 @@
 
 ## Server Configuration
 
+Develpoment:`npm start`
+Production: We will have a different banch and release accordingly.
+
 ### ENV Variables
 
-create a `.env` file in server root directory and define the following variables:
+Created a `develpoment.env` file in server root directory and define the following variables:
 
 - `PORT`
-- `NODE_ENV`
+- `MYSQL_USER`
+- `MYSQL_PASSWORD`
+
+We will have different .env files for development, testing and build.
+Only development.env is to kept public.
+Keepp all else in .gitignore
