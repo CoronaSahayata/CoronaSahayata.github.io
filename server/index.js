@@ -1,15 +1,30 @@
+// External Requirements 
 const express = require("express")
 const cors = require("cors")
 const logger = require("morgan")
 
-require("dotenv").config()
+try {
+	if (!process.env.NODE_ENV) {
+		throw "No environment specified."
+	}
+	require("dotenv").config({
+		path: __dirname + `/${process.env.NODE_ENV}.env`
+	})
+} catch (error) {
+	console.error("Environment Variable missing.\nDefaulting to development.\n")
+	require("dotenv").config({
+		path: __dirname + `/development.env`
+	})
+}
 
-const port = process.env.PORT || 3000
+// React development server runs on port 3000
+// We wil stick to 8080 port for express server
+const port = process.env.PORT
 
 const app = express()
 
-if (process.env.NODE_ENV === "dev") {
-	app.use(logger("dev"))
+if (process.env.NODE_ENV === "development") {
+	app.use(logger("development"))
 }
 
 app.use(cors())
