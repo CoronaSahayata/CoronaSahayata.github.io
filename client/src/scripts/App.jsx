@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ThreeScene from './Three/ThreeScene';
+import App1 from './home/App';
 
 class App extends Component {
   render() {
     return (
-      <ThreeScene/>
+      <App1/>
     );
   }
 }
