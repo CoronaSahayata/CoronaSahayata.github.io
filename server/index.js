@@ -1,18 +1,18 @@
 // External Requirements
-const express = require("express")
-const cors = require("cors")
-const morgan = require("morgan")
+const express = require('express')
+const cors = require('cors')
+const morgan = require('morgan')
 
 try {
 	if (!process.env.NODE_ENV) {
-		throw "No environment specified."
+		throw 'No environment specified.'
 	}
-	require("dotenv").config({
+	require('dotenv').config({
 		path: __dirname + `/${process.env.NODE_ENV}.env`
 	})
 } catch (error) {
-	console.error("Environment Variable missing.\nDefaulting to development.\n")
-	require("dotenv").config({
+	console.error('Environment Variable missing.\nDefaulting to development.\n')
+	require('dotenv').config({
 		path: __dirname + `/development.env`
 	})
 }
@@ -24,11 +24,11 @@ const port = process.env.PORT
 const app = express()
 
 // Express Configurations
-process.env.NODE_ENV === "development"
-	? app.use(morgan("dev"))
+process.env.NODE_ENV === 'development'
+	? app.use(morgan('dev'))
 	: app.use(
-			morgan("common", {
-				stream: __dirname + "/../morgan.log"
+			morgan('common', {
+				stream: __dirname + '/../morgan.log'
 			})
 	  )
 app.use(cors())

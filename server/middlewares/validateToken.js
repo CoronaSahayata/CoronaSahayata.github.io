@@ -1,10 +1,10 @@
-const auth = require(__dirname+"/../utils/auth")
+const auth = require(__dirname + '/../utils/auth')
 
 const validateToken = (req, res, next) => {
 	const authorizationHeader = req.headers.authorization
 	let result
 	if (authorizationHeader) {
-		const token = req.headers.authorization.split(" ")[1] // Bearer <token>
+		const token = req.headers.authorization.split(' ')[1] // Bearer <token>
 
 		try {
 			result = auth.validateToken(token)
