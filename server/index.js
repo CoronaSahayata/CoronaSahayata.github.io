@@ -1,10 +1,20 @@
-//Node requirements
 const express = require("express")
+const cors = require("cors")
+const logger = require("morgan")
+
+require("dotenv").config()
+
+const port = process.env.PORT || 3000
 
 const app = express()
-const port = 8080 //Testing port
+
+if (process.env.NODE_ENV === "dev") {
+	app.use(logger("dev"))
+}
+
+app.use(cors())
 
 app.use(express.json())
-app.use(express.urlencoded({extended:true}))
+app.use(express.urlencoded({ extended: true }))
 
-app.listen(8080,()=>console.log(`Listening on port ${port}`))
+app.listen(port, () => console.log(`Listening on port ${port}`))
