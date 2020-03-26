@@ -23,7 +23,7 @@ const port = process.env.PORT
 
 const app = express()
 
-// Express Configuration
+// Express Configurations
 process.env.NODE_ENV === "development"
 	? app.use(morgan("dev"))
 	: app.use(

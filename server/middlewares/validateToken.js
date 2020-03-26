@@ -1,4 +1,4 @@
-const auth = require("../utils/auth")
+const auth = require(__dirname+"/../utils/auth")
 
 const validateToken = (req, res, next) => {
 	const authorizationHeader = req.headers.authorization
