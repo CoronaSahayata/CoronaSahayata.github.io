@@ -24,7 +24,7 @@ const port = process.env.PORT
 const app = express()
 
 if (process.env.NODE_ENV === "development") {
-	app.use(logger("development"))
+	app.use(logger("dev"))
 }
 
 app.use(cors())
