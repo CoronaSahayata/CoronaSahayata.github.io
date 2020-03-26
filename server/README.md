@@ -15,4 +15,4 @@ Created a `develpoment.env` file in server root directory and define the followi
 
 We will have different .env files for development, testing and build.
 Only development.env is to kept public.
-Keepp all else in .gitignore
+Keep all else in .gitignore
