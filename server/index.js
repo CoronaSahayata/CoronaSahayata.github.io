@@ -1,7 +1,7 @@
-// External Requirements 
+// External Requirements
 const express = require("express")
 const cors = require("cors")
-const logger = require("morgan")
+const morgan = require("morgan")
 
 try {
 	if (!process.env.NODE_ENV) {
@@ -23,12 +23,15 @@ const port = process.env.PORT
 
 const app = express()
 
-if (process.env.NODE_ENV === "development") {
-	app.use(logger("dev"))
-}
-
+// Express Configuration
+process.env.NODE_ENV === "development"
+	? app.use(morgan("dev"))
+	: app.use(
+			morgan("common", {
+				stream: __dirname + "/../morgan.log"
+			})
+	  )
 app.use(cors())
-
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
