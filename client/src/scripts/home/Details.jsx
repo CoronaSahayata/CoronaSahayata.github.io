@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../../styles/Details.scss'
-import { FaFacebook } from 'react-icons/fa'
+// import { FaFacebook } from 'react-icons/fa'
 
 import { MDBRow, MDBCol, MDBInput, MDBCard, MDBCardBody } from 'mdbreact'
 
