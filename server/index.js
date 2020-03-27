@@ -36,19 +36,18 @@ if (process.env.NODE_ENV != 'dev') {
 
 app.use('/api', require(__dirname + '/routes/api'))
 
-const https = require('https')
+app.listen(port, () => console.log(`App listening on port ${port}`))
 
+
+// ! Only use in deployment
+const https = require('https')
 const fs = require('fs')
 const options = {
 	key: fs.readFileSync(__dirname + '/./server.key'),
 	cert: fs.readFileSync(__dirname + '/./server.crt')
 }
-
-app.listen(port, () => console.log(`App listening on port ${port}`))
-
-
-https
-	.createServer(options, app)
-	.listen(https_port, () =>
-		console.log(`Https listening on port ${https_port}`)
-	)
+// ? https
+// ? 	.createServer(options, app)
+// ? 	.listen(https_port, () =>
+// ? 		console.log(`Https listening on port ${https_port}`)
+// ? 	)
