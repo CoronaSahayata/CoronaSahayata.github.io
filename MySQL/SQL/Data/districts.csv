@@ -1,0 +1,722 @@
+AN002,Nicobar,AN
+AN001,North and Middle Andaman,AN
+AN003,South Andaman,AN
+AP012,Anantapur,AP
+AP010,Chittoor,AP
+AP004,East Godavari,AP
+AP007,Guntur,AP
+AP006,Krishna,AP
+AP013,Kurnool,AP
+AP008,Prakasam,AP
+AP001,Srikakulam,AP
+AP009,Sri Potti Sriramulu Nellore,AP
+AP003,Visakhapatnam,AP
+AP002,Vizianagaram,AP
+AP005,West Godavari,AP
+AP011,YSR District, Kadapa (Cuddapah),AP
+AR016,Anjaw,AR
+AR001,Changlang,AR
+AR014,Dibang Valley,AR
+AR003,East Kameng,AR
+AR004,East Siang,AR
+AR022,Kamle,AR
+AR019,Kra Daadi,AR
+AR015,Kurung Kumey,AR
+AR024,Lepa Rada,AR
+AR005,Lohit,AR
+AR017,Longding,AR
+AR002,Lower Dibang Valley,AR
+AR020,Lower Siang,AR
+AR006,Lower Subansiri,AR
+AR018,Namsai,AR
+AR025,Pakke Kessang,AR
+AR007,Papum Pare,AR
+AR023,Shi Yomi,AR
+AR021,Siang,AR
+AR008,Tawang,AR
+AR009,Tirap,AR
+AR010,Upper Siang,AR
+AR011,Upper Subansiri,AR
+AR012,West Kameng,AR
+AR013,West Siang,AR
+AS025,Baksa,AS
+AS001,Barpeta,AS
+AS028,Biswanath,AS
+AS002,Bongaigaon,AS
+AS003,Cachar,AS
+AS029,Charaideo,AS
+AS027,Chirang,AS
+AS004,Darrang,AS
+AS005,Dhemaji,AS
+AS006,Dhubri,AS
+AS007,Dibrugarh,AS
+AS020,Dima Hasao (North Cachar Hills),AS
+AS008,Goalpara,AS
+AS009,Golaghat,AS
+AS010,Hailakandi,AS
+AS030,Hojai,AS
+AS011,Jorhat,AS
+AS012,Kamrup,AS
+AS026,Kamrup Metropolitan,AS
+AS013,Karbi Anglong,AS
+AS014,Karimganj,AS
+AS015,Kokrajhar,AS
+AS016,Lakhimpur,AS
+AS033,Majuli,AS
+AS017,Morigaon,AS
+AS018,Nagaon,AS
+AS019,Nalbari,AS
+AS021,Sivasagar,AS
+AS022,Sonitpur,AS
+AS031,South Salamara-Mankachar,AS
+AS023,Tinsukia,AS
+AS024,Udalguri,AS
+AS032,West Karbi Anglong,AS
+BR001,Araria,BR
+BR038,Arwal,BR
+BR002,Aurangabad,BR
+BR003,Banka,BR
+BR004,Begusarai,BR
+BR005,Bhagalpur,BR
+BR006,Bhojpur,BR
+BR007,Buxar,BR
+BR008,Darbhanga,BR
+BR026,East Champaran (Motihari),BR
+BR009,Gaya,BR
+BR010,Gopalganj,BR
+BR011,Jamui,BR
+BR012,Jehanabad,BR
+BR013,Kaimur (Bhabua),BR
+BR014,Katihar,BR
+BR015,Khagaria,BR
+BR016,Kishanganj,BR
+BR017,Lakhisarai,BR
+BR018,Madhepura,BR
+BR019,Madhubani,BR
+BR020,Munger (Monghyr),BR
+BR021,Muzaffarpur,BR
+BR022,Nalanda,BR
+BR023,Nawada,BR
+BR025,Patna,BR
+BR027,Purnia (Purnea),BR
+BR028,Rohtas,BR
+BR029,Saharsa,BR
+BR030,Samastipur,BR
+BR031,Saran,BR
+BR032,Sheikhpura,BR
+BR033,Sheohar,BR
+BR034,Sitamarhi,BR
+BR035,Siwan,BR
+BR036,Supaul,BR
+BR037,Vaishali,BR
+BR024,West Champaran,BR
+CH001,Chandigarh,CH
+CG023,Balod,CG
+CG026,Baloda Bazar,CG
+CG027,Balrampur,CG
+CG001,Bastar,CG
+CG022,Bemetara,CG
+CG018,Bijapur,CG
+CG002,Bilaspur,CG
+CG003,Dantewada (South Bastar),CG
+CG004,Dhamtari,CG
+CG005,Durg,CG
+CG024,Gariyaband,CG
+CG006,Janjgir-Champa,CG
+CG007,Jashpur,CG
+CG009,Kabirdham (Kawardha),CG
+CG008,Kanker (North Bastar),CG
+CG021,Kondagaon,CG
+CG010,Korba,CG
+CG011,Korea (Koriya),CG
+CG012,Mahasamund,CG
+CG025,Mungeli,CG
+CG017,Narayanpur,CG
+CG013,Raigarh,CG
+CG014,Raipur,CG
+CG015,Rajnandgaon,CG
+CG019,Sukma,CG
+CG020,Surajpur  ,CG
+CG016,Surguja,CG
+DN001,Dadra &amp; Nagar Haveli,DN
+DD001,Daman,DD
+DD002,Diu,DD
+DL001,Central Delhi,DL
+DL002,East Delhi,DL
+DL003,New Delhi,DL
+DL004,North Delhi,DL
+DL005,North East  Delhi,DL
+DL006,North West  Delhi,DL
+DL011,Shahdara,DL
+DL007,South Delhi,DL
+DL010,South East Delhi,DL
+DL008,South West  Delhi,DL
+DL009,West Delhi,DL
+GA001,North Goa,GA
+GA002,South Goa,GA
+GJ001,Ahmedabad,GJ
+GJ002,Amreli,GJ
+GJ003,Anand,GJ
+GJ027,Aravalli,GJ
+GJ004,Banaskantha (Palanpur),GJ
+GJ005,Bharuch,GJ
+GJ006,Bhavnagar,GJ
+GJ028,Botad,GJ
+GJ029,Chhota Udepur,GJ
+GJ007,Dahod,GJ
+GJ023,Dangs (Ahwa),GJ
+GJ030,Devbhoomi Dwarka,GJ
+GJ008,Gandhinagar,GJ
+GJ031,Gir Somnath,GJ
+GJ009,Jamnagar,GJ
+GJ010,Junagadh,GJ
+GJ011,Kachchh,GJ
+GJ012,Kheda (Nadiad),GJ
+GJ032,Mahisagar,GJ
+GJ013,Mehsana,GJ
+GJ033,Morbi,GJ
+GJ014,Narmada (Rajpipla),GJ
+GJ015,Navsari,GJ
+GJ016,Panchmahal (Godhra),GJ
+GJ017,Patan,GJ
+GJ018,Porbandar,GJ
+GJ019,Rajkot,GJ
+GJ020,Sabarkantha (Himmatnagar),GJ
+GJ021,Surat,GJ
+GJ022,Surendranagar,GJ
+GJ026,Tapi (Vyara),GJ
+GJ024,Vadodara,GJ
+GJ025,Valsad,GJ
+HR001,Ambala,HR
+HR002,Bhiwani,HR
+HR022,Charkhi Dadri,HR
+HR003,Faridabad,HR
+HR004,Fatehabad,HR
+HR005,Gurgaon,HR
+HR006,Hisar,HR
+HR007,Jhajjar,HR
+HR008,Jind,HR
+HR009,Kaithal,HR
+HR010,Karnal,HR
+HR011,Kurukshetra,HR
+HR012,Mahendragarh,HR
+HR020,Mewat,HR
+HR021,Palwal,HR
+HR013,Panchkula,HR
+HR014,Panipat,HR
+HR015,Rewari,HR
+HR016,Rohtak,HR
+HR017,Sirsa,HR
+HR018,Sonipat,HR
+HR019,Yamunanagar,HR
+HP001,Bilaspur,HP
+HP002,Chamba,HP
+HP003,Hamirpur,HP
+HP004,Kangra,HP
+HP005,Kinnaur,HP
+HP006,Kullu,HP
+HP007,Lahaul &amp; Spiti,HP
+HP008,Mandi,HP
+HP009,Shimla,HP
+HP010,Sirmaur (Sirmour),HP
+HP011,Solan,HP
+HP012,Una,HP
+JK001,Anantnag,JK
+JK022,Bandipore,JK
+JK003,Baramulla,JK
+JK002,Budgam,JK
+JK004,Doda,JK
+JK021,Ganderbal,JK
+JK005,Jammu,JK
+JK006,Kargil,JK
+JK007,Kathua,JK
+JK018,Kishtwar,JK
+JK019,Kulgam,JK
+JK008,Kupwara,JK
+JK009,Leh,JK
+JK011,Poonch,JK
+JK010,Pulwama,JK
+JK012,Rajouri,JK
+JK017,Ramban,JK
+JK016,Reasi,JK
+JK015,Samba,JK
+JK020,Shopian,JK
+JK013,Srinagar,JK
+JK014,Udhampur,JK
+JH001,Bokaro,JH
+JH002,Chatra,JH
+JH003,Deoghar,JH
+JH004,Dhanbad,JH
+JH005,Dumka,JH
+JH016,East Singhbhum,JH
+JH006,Garhwa,JH
+JH007,Giridih,JH
+JH008,Godda,JH
+JH009,Gumla,JH
+JH010,Hazaribag,JH
+JH020,Jamtara,JH
+JH024,Khunti,JH
+JH011,Koderma,JH
+JH021,Latehar,JH
+JH012,Lohardaga,JH
+JH013,Pakur,JH
+JH014,Palamu,JH
+JH023,Ramgarh,JH
+JH017,Ranchi,JH
+JH018,Sahibganj,JH
+JH019,Seraikela-Kharsawan,JH
+JH022,Simdega,JH
+JH015,West Singhbhum,JH
+KA001,Bagalkot,KA
+KA005,Ballari (Bellary),KA
+KA004,Belagavi (Belgaum),KA
+KA003,Bengaluru (Bangalore) Rural,KA
+KA002,Bengaluru (Bangalore) Urban,KA
+KA006,Bidar,KA
+KA008,Chamarajanagar,KA
+KA028,Chikballapur,KA
+KA009,Chikkamagaluru (Chikmagalur),KA
+KA010,Chitradurga,KA
+KA011,Dakshina Kannada,KA
+KA012,Davangere,KA
+KA013,Dharwad,KA
+KA014,Gadag,KA
+KA016,Hassan,KA
+KA017,Haveri,KA
+KA015,Kalaburagi (Gulbarga),KA
+KA018,Kodagu,KA
+KA019,Kolar,KA
+KA020,Koppal,KA
+KA021,Mandya,KA
+KA022,Mysuru (Mysore),KA
+KA023,Raichur,KA
+KA030,Ramanagara,KA
+KA024,Shivamogga (Shimoga),KA
+KA025,Tumakuru (Tumkur),KA
+KA026,Udupi,KA
+KA027,Uttara Kannada (Karwar),KA
+KA007,Vijayapura (Bijapur),KA
+KA029,Yadgir,KA
+KL001,Alappuzha,KL
+KL002,Ernakulam,KL
+KL003,Idukki,KL
+KL004,Kannur,KL
+KL005,Kasaragod,KL
+KL006,Kollam,KL
+KL007,Kottayam,KL
+KL008,Kozhikode,KL
+KL009,Malappuram,KL
+KL010,Palakkad,KL
+KL011,Pathanamthitta,KL
+KL012,Thiruvananthapuram,KL
+KL013,Thrissur,KL
+KL014,Wayanad,KL
+LD001,Lakshadweep,LD
+MP053,Agar Malwa,MP
+MP052,Alirajpur,MP
+MP048,Anuppur,MP
+MP050,Ashoknagar,MP
+MP001,Balaghat,MP
+MP002,Barwani,MP
+MP003,Betul,MP
+MP004,Bhind,MP
+MP005,Bhopal,MP
+MP049,Burhanpur,MP
+MP006,Chhatarpur,MP
+MP007,Chhindwara,MP
+MP008,Damoh,MP
+MP009,Datia,MP
+MP010,Dewas,MP
+MP011,Dhar,MP
+MP012,Dindori,MP
+MP014,Guna,MP
+MP015,Gwalior,MP
+MP016,Harda,MP
+MP017,Hoshangabad,MP
+MP018,Indore,MP
+MP019,Jabalpur,MP
+MP020,Jhabua,MP
+MP021,Katni,MP
+MP047,Khandwa,MP
+MP046,Khargone,MP
+MP022,Mandla,MP
+MP023,Mandsaur,MP
+MP024,Morena,MP
+MP025,Narsinghpur,MP
+MP026,Neemuch,MP
+MP027,Panna,MP
+MP028,Raisen,MP
+MP029,Rajgarh,MP
+MP030,Ratlam,MP
+MP031,Rewa,MP
+MP032,Sagar,MP
+MP033,Satna,MP
+MP034,Sehore,MP
+MP035,Seoni,MP
+MP036,Shahdol,MP
+MP037,Shajapur,MP
+MP038,Sheopur,MP
+MP039,Shivpuri,MP
+MP040,Sidhi,MP
+MP051,Singrauli,MP
+MP041,Tikamgarh,MP
+MP042,Ujjain,MP
+MP043,Umaria,MP
+MP044,Vidisha,MP
+MH001,Ahmednagar,MH
+MH002,Akola,MH
+MH003,Amravati,MH
+MH004,Aurangabad,MH
+MH006,Beed,MH
+MH005,Bhandara,MH
+MH007,Buldhana,MH
+MH008,Chandrapur,MH
+MH009,Dhule,MH
+MH010,Gadchiroli,MH
+MH011,Gondia,MH
+MH012,Hingoli,MH
+MH013,Jalgaon,MH
+MH014,Jalna,MH
+MH015,Kolhapur,MH
+MH016,Latur,MH
+MH017,Mumbai City,MH
+MH018,Mumbai Suburban,MH
+MH019,Nagpur,MH
+MH020,Nanded,MH
+MH021,Nandurbar,MH
+MH022,Nashik,MH
+MH023,Osmanabad,MH
+MH036,Palghar,MH
+MH024,Parbhani,MH
+MH025,Pune,MH
+MH026,Raigad,MH
+MH027,Ratnagiri,MH
+MH028,Sangli,MH
+MH029,Satara,MH
+MH030,Sindhudurg,MH
+MH031,Solapur,MH
+MH032,Thane,MH
+MH033,Wardha,MH
+MH034,Washim,MH
+MH035,Yavatmal,MH
+MN001,Bishnupur,MN
+MN002,Chandel,MN
+MN003,Churachandpur,MN
+MN004,Imphal East,MN
+MN005,Imphal West,MN
+MN015,Jiribam,MN
+MN016,Kakching,MN
+MN014,Kamjong,MN
+MN010,Kangpokpi,MN
+MN013,Noney,MN
+MN012,Pherzawl,MN
+MN006,Senapati,MN
+MN007,Tamenglong,MN
+MN011,Tengnoupal,MN
+MN008,Thoubal,MN
+MN009,Ukhrul,MN
+ML001,East Garo Hills,ML
+ML008,East Jaintia Hills,ML
+ML002,East Khasi Hills,ML
+ML010,North Garo Hills,ML
+ML004,Ri Bhoi,ML
+ML005,South Garo Hills,ML
+ML011,South West Garo Hills ,ML
+ML009,South West Khasi Hills,ML
+ML006,West Garo Hills,ML
+ML003,West Jaintia Hills,ML
+ML007,West Khasi Hills,ML
+MZ001,Aizawl,MZ
+MZ002,Champhai,MZ
+MZ003,Kolasib,MZ
+MZ004,Lawngtlai,MZ
+MZ005,Lunglei,MZ
+MZ006,Mamit,MZ
+MZ007,Saiha,MZ
+MZ008,Serchhip,MZ
+NL001,Dimapur,NL
+NL010,Kiphire,NL
+NL002,Kohima,NL
+NL011,Longleng,NL
+NL003,Mokokchung,NL
+NL004,Mon,NL
+NL009,Peren,NL
+NL005,Phek,NL
+NL006,Tuensang,NL
+NL007,Wokha,NL
+NL008,Zunheboto,NL
+OR001,Angul,OR
+OR002,Balangir,OR
+OR003,Balasore,OR
+OR004,Bargarh,OR
+OR006,Bhadrak,OR
+OR005,Boudh,OR
+OR007,Cuttack,OR
+OR008,Deogarh,OR
+OR009,Dhenkanal,OR
+OR010,Gajapati,OR
+OR011,Ganjam,OR
+OR012,Jagatsinghapur,OR
+OR013,Jajpur,OR
+OR014,Jharsuguda,OR
+OR015,Kalahandi,OR
+OR016,Kandhamal,OR
+OR017,Kendrapara,OR
+OR018,Kendujhar (Keonjhar),OR
+OR019,Khordha,OR
+OR020,Koraput,OR
+OR021,Malkangiri,OR
+OR022,Mayurbhanj,OR
+OR023,Nabarangpur,OR
+OR024,Nayagarh,OR
+OR025,Nuapada,OR
+OR026,Puri,OR
+OR027,Rayagada,OR
+OR028,Sambalpur,OR
+OR029,Sonepur,OR
+OR030,Sundargarh,OR
+PY001,Karaikal,PY
+PY002,Mahe,PY
+PY003,Pondicherry,PY
+PY004,Yanam,PY
+PB001,Amritsar,PB
+PB019,Barnala,PB
+PB002,Bathinda,PB
+PB003,Faridkot,PB
+PB004,Fatehgarh Sahib,PB
+PB022,Fazilka,PB
+PB005,Ferozepur,PB
+PB006,Gurdaspur,PB
+PB007,Hoshiarpur,PB
+PB008,Jalandhar,PB
+PB009,Kapurthala,PB
+PB010,Ludhiana,PB
+PB011,Mansa,PB
+PB012,Moga,PB
+PB013,Muktsar,PB
+PB014,Nawanshahr (Shahid Bhagat Singh Nagar),PB
+PB021,Pathankot,PB
+PB015,Patiala,PB
+PB016,Rupnagar,PB
+PB020,Sahibzada Ajit Singh Nagar (Mohali),PB
+PB017,Sangrur,PB
+PB018,Tarn Taran,PB
+RJ001,Ajmer,RJ
+RJ002,Alwar,RJ
+RJ003,Banswara,RJ
+RJ004,Baran,RJ
+RJ005,Barmer,RJ
+RJ006,Bharatpur,RJ
+RJ007,Bhilwara,RJ
+RJ008,Bikaner,RJ
+RJ009,Bundi,RJ
+RJ010,Chittorgarh,RJ
+RJ011,Churu,RJ
+RJ012,Dausa,RJ
+RJ013,Dholpur,RJ
+RJ014,Dungarpur,RJ
+RJ016,Hanumangarh,RJ
+RJ017,Jaipur,RJ
+RJ018,Jaisalmer,RJ
+RJ019,Jalore,RJ
+RJ020,Jhalawar,RJ
+RJ021,Jhunjhunu,RJ
+RJ022,Jodhpur,RJ
+RJ023,Karauli,RJ
+RJ024,Kota,RJ
+RJ025,Nagaur,RJ
+RJ026,Pali,RJ
+RJ033,Pratapgarh,RJ
+RJ027,Rajsamand,RJ
+RJ028,Sawai Madhopur,RJ
+RJ029,Sikar,RJ
+RJ030,Sirohi,RJ
+RJ015,Sri Ganganagar,RJ
+RJ031,Tonk,RJ
+RJ032,Udaipur,RJ
+SK001,East Sikkim,SK
+SK002,North Sikkim,SK
+SK003,South Sikkim,SK
+SK004,West Sikkim,SK
+TN032,Ariyalur,TN
+TN002,Chennai,TN
+TN003,Coimbatore,TN
+TN004,Cuddalore,TN
+TN005,Dharmapuri,TN
+TN006,Dindigul,TN
+TN007,Erode,TN
+TN008,Kanchipuram,TN
+TN009,Kanyakumari,TN
+TN010,Karur,TN
+TN031,Krishnagiri,TN
+TN011,Madurai,TN
+TN012,Nagapattinam,TN
+TN013,Namakkal,TN
+TN020,Nilgiris,TN
+TN014,Perambalur,TN
+TN015,Pudukkottai,TN
+TN016,Ramanathapuram,TN
+TN017,Salem,TN
+TN018,Sivaganga,TN
+TN019,Thanjavur,TN
+TN021,Theni,TN
+TN024,Thoothukudi (Tuticorin),TN
+TN025,Tiruchirappalli,TN
+TN026,Tirunelveli,TN
+TN033,Tiruppur,TN
+TN022,Tiruvallur,TN
+TN027,Tiruvannamalai,TN
+TN023,Tiruvarur,TN
+TN028,Vellore,TN
+TN029,Viluppuram,TN
+TN030,Virudhunagar,TN
+TG006,Adilabad,TG
+TG011,Bhadradri Kothagudem,TG
+TG003,Hyderabad,TG
+TG012,Jagtial,TG
+TG013,Jangaon,TG
+TG014,Jayashankar Bhoopalpally,TG
+TG015,Jogulamba Gadwal,TG
+TG016,Kamareddy,TG
+TG007,Karimnagar,TG
+TG009,Khammam,TG
+TG017,Komaram Bheem Asifabad,TG
+TG018,Mahabubabad,TG
+TG001,Mahabubnagar,TG
+TG019,Mancherial,TG
+TG004,Medak,TG
+TG020,Medchal,TG
+TG021,Nagarkurnool,TG
+TG010,Nalgonda,TG
+TG022,Nirmal,TG
+TG005,Nizamabad,TG
+TG023,Peddapalli,TG
+TG024,Rajanna Sircilla,TG
+TG002,Rangareddy,TG
+TG025,Sangareddy,TG
+TG026,Siddipet,TG
+TG027,Suryapet,TG
+TG028,Vikarabad,TG
+TG029,Wanaparthy,TG
+TG030,Warangal (Rural),TG
+TG008,Warangal (Urban),TG
+TG031,Yadadri Bhuvanagiri,TG
+TR001,Dhalai,TR
+TR006,Gomati,TR
+TR007,Khowai,TR
+TR002,North Tripura,TR
+TR008,Sepahijala,TR
+TR003,South Tripura,TR
+TR005,Unakoti,TR
+TR004,West Tripura,TR
+UK001,Almora,UK
+UK002,Bageshwar,UK
+UK003,Chamoli,UK
+UK004,Champawat,UK
+UK005,Dehradun,UK
+UK007,Haridwar,UK
+UK008,Nainital,UK
+UK006,Pauri Garhwal,UK
+UK009,Pithoragarh,UK
+UK010,Rudraprayag,UK
+UK011,Tehri Garhwal,UK
+UK012,Udham Singh Nagar,UK
+UK013,Uttarkashi,UK
+UP001,Agra,UP
+UP002,Aligarh,UP
+UP003,Allahabad,UP
+UP004,Ambedkar Nagar,UP
+UP074,Amethi (Chatrapati Sahuji Mahraj Nagar),UP
+UP038,Amroha (J.P. Nagar),UP
+UP005,Auraiya,UP
+UP006,Azamgarh,UP
+UP007,Baghpat,UP
+UP008,Bahraich,UP
+UP009,Ballia,UP
+UP010,Balrampur,UP
+UP011,Banda,UP
+UP012,Barabanki,UP
+UP013,Bareilly,UP
+UP014,Basti,UP
+UP062,Bhadohi,UP
+UP015,Bijnor,UP
+UP016,Budaun,UP
+UP017,Bulandshahr,UP
+UP018,Chandauli,UP
+UP019,Chitrakoot,UP
+UP020,Deoria,UP
+UP021,Etah,UP
+UP022,Etawah,UP
+UP023,Faizabad,UP
+UP024,Farrukhabad,UP
+UP025,Fatehpur,UP
+UP026,Firozabad,UP
+UP027,Gautam Buddha Nagar,UP
+UP028,Ghaziabad,UP
+UP029,Ghazipur,UP
+UP030,Gonda,UP
+UP031,Gorakhpur,UP
+UP032,Hamirpur,UP
+UP073,Hapur (Panchsheel Nagar),UP
+UP033,Hardoi,UP
+UP034,Hathras,UP
+UP035,Jalaun,UP
+UP036,Jaunpur,UP
+UP037,Jhansi,UP
+UP039,Kannauj,UP
+UP040,Kanpur Dehat,UP
+UP041,Kanpur Nagar,UP
+UP071,Kanshiram Nagar (Kasganj),UP
+UP042,Kaushambi,UP
+UP044,Kushinagar (Padrauna),UP
+UP043,Lakhimpur - Kheri,UP
+UP045,Lalitpur,UP
+UP046,Lucknow,UP
+UP047,Maharajganj,UP
+UP048,Mahoba,UP
+UP049,Mainpuri,UP
+UP050,Mathura,UP
+UP051,Mau,UP
+UP052,Meerut,UP
+UP053,Mirzapur,UP
+UP054,Moradabad,UP
+UP055,Muzaffarnagar,UP
+UP056,Pilibhit,UP
+UP057,Pratapgarh,UP
+UP058,RaeBareli,UP
+UP059,Rampur,UP
+UP060,Saharanpur,UP
+UP072,Sambhal (Bhim Nagar),UP
+UP061,Sant Kabir Nagar,UP
+UP063,Shahjahanpur,UP
+UP075,Shamali (Prabuddh Nagar),UP
+UP064,Shravasti,UP
+UP065,Siddharth Nagar,UP
+UP066,Sitapur,UP
+UP067,Sonbhadra,UP
+UP068,Sultanpur,UP
+UP069,Unnao,UP
+UP070,Varanasi,UP
+WB022,Alipurduar,WB
+WB001,Bankura,WB
+WB003,Birbhum,WB
+WB009,Cooch Behar,WB
+WB004,Dakshin Dinajpur (South Dinajpur),WB
+WB005,Darjeeling,WB
+WB007,Hooghly,WB
+WB006,Howrah,WB
+WB008,Jalpaiguri,WB
+WB023,Jhargram,WB
+WB021,Kalimpong,WB
+WB020,Kolkata,WB
+WB011,Malda,WB
+WB013,Murshidabad,WB
+WB014,Nadia,WB
+WB015,North 24 Parganas,WB
+WB019,Paschim Medinipur (West Medinipur),WB
+WB024,Paschim (West) Burdwan (Bardhaman),WB
+WB002,Purba Burdwan (Bardhaman),WB
+WB012,Purba Medinipur (East Medinipur),WB
+WB016,Purulia,WB
+WB017,South 24 Parganas,WB
+WB018,Uttar Dinajpur (North Dinajpur),WB
