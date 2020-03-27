@@ -36,6 +36,7 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+app.enable('trust proxy')
+app.use(require(__dirname+'/middlewares/httpsRedirect.js'))
 app.use('/api',require(__dirname+'/routes/api'))
-
 app.listen(port, () => console.log(`Listening on port ${port}`))
