@@ -1,8 +1,13 @@
 const Sequelize = require('sequelize')
 
-const sequelize = new Sequelize('csdb', 'root', 'password', {
-	dialect: 'mysql'
-})
+const sequelize = new Sequelize(
+	process.env.MYSQL_DB,
+	process.env.MYSQL_USER,
+	process.env.MYSQL_PASSWORD,
+	{
+		dialect: 'mysql'
+	}
+)
 
 const CityMaster = require(__dirname + '/./city_master')(sequelize, Sequelize)
 const CountryMaster = require(__dirname + '/./country_master')(
