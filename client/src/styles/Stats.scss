@@ -1,6 +1,16 @@
+// @import "../assets/bg.png";
 .StatsOuter {
+	@media only screen and (max-width: 768px) {
+		height:120vh
+	}
 	height: 100vh;
 	text-align: center;
+	background-image: url('../assets/bg1.png');
+	// padding-bottom:20vh;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	
+	// background-position-y: top;
 	.HeadingStats {
 		text-align: center;
 		margin-bottom: 40px;
@@ -38,45 +48,44 @@
 .NumberCards {
 	// width:100%;
 	text-align: center;
-    padding: 0 0 !important;
-    
-    @media only screen and (max-width: 768px) {
-        margin-right :0 !important;
-        margin-left: 35px;
-    }
+	padding: 0 0 !important;
+
+	@media only screen and (max-width: 768px) {
+		margin-right: 0 !important;
+		margin-left: 35px;
+	}
 	.statsNumberCard {
 		width: 25rem;
-        text-align: left;
-        border-left: 25px solid rgb(48, 127, 231);
-        background-color:rgba(48, 127, 231, 0.5) ;
-        @media only screen and (max-width: 768px) {
-            margin-right:0 !important;
-            padding : 0 !important;
-            width: 21rem;
+		text-align: left;
+		border-left: 25px solid rgb(48, 127, 231);
+		background-color: rgba(48, 127, 231, 0.5);
+		@media only screen and (max-width: 768px) {
+			margin-right: 0 !important;
+			padding: 0 !important;
+			width: 21rem;
 		}
 		.Number {
-            font-weight: 400;
-            font-size: 3rem;
-            @media only screen and (max-width: 768px) {
-                font-size: 2rem;
-                padding-top: 10px;
-            }
-
+			font-weight: 400;
+			font-size: 3rem;
+			@media only screen and (max-width: 768px) {
+				font-size: 2rem;
+				padding-top: 10px;
+			}
 		}
 		.text {
-            font-weight: 800;
+			font-weight: 800;
 		}
 		@media only screen and (max-width: 768px) {
 			text-align: center;
 		}
 	}
 }
-.panelNumber{
-    padding-bottom:10px;
+.panelNumber {
+	padding-bottom: 10px;
 }
-.statsNumberCard1{
-    border-left: 25px solid red !important;
-    background-color: rgba(255, 0, 0, 0.5) !important;
+.statsNumberCard1 {
+	border-left: 25px solid red !important;
+	background-color: rgba(255, 0, 0, 0.5) !important;
 }
 .column {
 	padding-right: 0px !important;
@@ -97,25 +106,20 @@
 //     }
 // }
 .button {
-    // background-color: red;
-    text-align: left;
-    margin-top: 10px;
-    @media only screen and (max-width: 768px) {
-        text-align: center;
-    }
+	// background-color: red;
+	text-align: left;
+	margin-top: 10px;
+	@media only screen and (max-width: 768px) {
+		text-align: center;
+	}
 	.buttonStats {
-        border-radius: 30px 0 30px 0;
-        margin: 10px 5px;
-        background-color: #3985e7;
-        .buttonText {
-            color:white;
-            font-size: 1rem;
-            font-weight: 600;
-        }
+		border-radius: 30px 0 30px 0;
+		margin: 10px 5px;
+		background-color: #3985e7;
+		.buttonText {
+			color: white;
+			font-size: 1rem;
+			font-weight: 600;
+		}
 	}
 }
-
-
-
-
-

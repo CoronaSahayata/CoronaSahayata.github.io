@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import '../../styles/Stats.scss'
 import { MDBRow, MDBCol, MDBCard, MDBCardTitle, MDBCardText } from 'mdbreact'
 import Graph from '../../assets/stats.png'
+
 class Stats extends Component {
 	state = {}
 	render() {

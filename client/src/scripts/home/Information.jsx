@@ -1,13 +1,16 @@
 import React, { useState } from 'react'
-import ItemsCarousel from 'react-items-carousel'
-import '../../styles/Information.scss'
+import ItemsCarousel from 'react-items-carousel';
+import '../../styles/Information.scss';
+import Information1 from "../../assets/Information1.png";
+import Information2 from "../../assets/Information2.png";
+import Information3 from "../../assets/Information3.png";
 import {
 	MDBCard,
 	MDBCardBody,
 	MDBCardImage,
 	MDBCardTitle,
 	MDBCardText
-} from 'mdbreact'
+} from 'mdbreact';
 
 export default () => {
 	const [activeItemIndex, setActiveItemIndex] = useState(0)
@@ -46,7 +49,7 @@ export default () => {
 						<MDBCard className="Card z-depth-1">
 							<MDBCardImage
 								className="img-fluid"
-								src="https://images.unsplash.com/photo-1585244759837-5bb4b3a6919c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1259&q=80"
+								src={Information1}
 							/>
 							<MDBCardBody className="cardBody  ">
 								<MDBCardTitle className="cardTitle">
@@ -67,7 +70,7 @@ export default () => {
 						<MDBCard className="Card z-depth-1">
 							<MDBCardImage
 								className="img-fluid"
-								src="https://images.unsplash.com/photo-1585244759837-5bb4b3a6919c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1259&q=80"
+								src={Information2}
 							/>
 							<MDBCardBody className="cardBody ">
 								<MDBCardTitle className="cardTitle">
@@ -88,7 +91,7 @@ export default () => {
 						<MDBCard className="Card z-depth-1">
 							<MDBCardImage
 								className="img-fluid"
-								src="https://images.unsplash.com/photo-1585244759837-5bb4b3a6919c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1259&q=80"
+								src={Information3}
 							/>
 							<MDBCardBody className="cardBody ">
 								<MDBCardTitle className="cardTitle">
@@ -129,7 +132,7 @@ export default () => {
 						<MDBCard className="Card z-depth-1">
 							<MDBCardImage
 								className="img-fluid"
-								src="https://images.unsplash.com/photo-1585244759837-5bb4b3a6919c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1259&q=80"
+								src={Information1}
 							/>
 							<MDBCardBody className="cardBody ">
 								<MDBCardTitle className="cardTitle">
@@ -150,7 +153,7 @@ export default () => {
 						<MDBCard className="Card z-depth-1">
 							<MDBCardImage
 								className="img-fluid"
-								src="https://images.unsplash.com/photo-1585244759837-5bb4b3a6919c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1259&q=80"
+								src={Information2}
 							/>
 							<MDBCardBody className="cardBody ">
 								<MDBCardTitle className="cardTitle">
@@ -171,7 +174,7 @@ export default () => {
 						<MDBCard className="Card z-depth-1">
 							<MDBCardImage
 								className="img-fluid"
-								src="https://images.unsplash.com/photo-1585244759837-5bb4b3a6919c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1259&q=80"
+								src={Information3}
 							/>
 							<MDBCardBody className="cardBody ">
 								<MDBCardTitle className="cardTitle">

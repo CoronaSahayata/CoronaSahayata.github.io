@@ -1,0 +1,94 @@
+.ContactDetails {
+    height: 60vh;
+    @media only screen and (max-width: 768px) {
+        height: 100vh;
+    }
+	.HeadingInformation {
+		text-align: center;
+		margin-bottom: 40px;
+		// width   : 60%;  /* or 100px */
+		// box-shadow: 0px 24px 3px -24px magenta;
+		// border-bottom:3px solid #1d5296;
+		.Heading {
+			font-size: 4rem;
+			font-weight: 600;
+			// margin-bottom: 40px;
+			@media only screen and (max-width: 768px) {
+				font-size: 2rem;
+				font-weight: 700;
+			}
+		}
+	}
+	.HeadingInformation:after {
+		display: block;
+		clear: both;
+		content: '';
+		position: relative;
+		left: 0;
+		bottom: 0;
+		// max-width:250px;
+		height: 1px;
+		width: 43%; /* or 100px */
+		border-bottom: 3px solid #3985e7;
+		margin: 0 auto;
+		padding: 4px 0px;
+	}
+}
+
+.button {
+	// background-color: red;
+	text-align: left;
+	margin-top: 10px;
+	@media only screen and (max-width: 768px) {
+		text-align: center;
+	}
+	.button1div {
+        text-align: right;
+        @media only screen and (max-width: 768px) {
+            text-align: center;
+        }
+
+		.button1 {
+			border-radius: 30px 0 30px 0;
+			margin: 10px 5px;
+			background-color: #3985e7;
+            text-align: left;
+            width:20rem;
+
+            @media only screen and (max-width: 768px) {
+                text-align: center;
+            border-radius: 30px;
+            width:15rem;
+
+            }
+			.buttonText {
+				color: white;
+				font-size: 1rem;
+				font-weight: 600;
+			}
+		}
+    }
+    .button2div{
+        @media only screen and (max-width: 768px) {
+            text-align: center;
+        }
+        .button2 {
+            border-radius: 0 30px 0 30px ;
+            width:15rem;
+
+            margin: 10px 5px;
+            background-color: #3985e7;
+            text-align: right;
+            @media only screen and (max-width: 768px) {
+                text-align: center;
+			border-radius: 30px;
+
+            }
+            .buttonText {
+                color: white;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+    }
+}

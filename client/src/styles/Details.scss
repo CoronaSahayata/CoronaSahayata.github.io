@@ -1,76 +1,96 @@
-.Details { height: 100vh;
-    margin-top: 50px    ;
-    .row{
-        
-    }
-	.HeadingInformation{
+.DetailsOuter {
+	background-image: url('../assets/bg.png');
+	// padding-top:10vh;
+	// overflow: hidden;	
+	background-position: center top;
+	background-attachment: fixed;
+	@media only screen and (max-width: 768px) {
+		background-position: center center;
+
+	}
+
+}
+.Details {
+	height: 100vh;
+	margin-top: 50px;
+	background-size: 90%;
+	
+	overflow: visible;
+	.row {
+	}
+	.HeadingInformation {
 		text-align: center;
 		margin-bottom: 40px;
 		// width   : 60%;  /* or 100px */
 		// box-shadow: 0px 24px 3px -24px magenta;
 		// border-bottom:3px solid #1d5296;
-		.Heading{
-			font-size:4rem;
+		.Heading {
+			font-size: 4rem;
 			font-weight: 600;
 			// margin-bottom: 40px;
-			@media only screen and (max-width:768px){
+			@media only screen and (max-width: 768px) {
 				font-size: 2rem;
-				font-weight: 700;   
-	
+				font-weight: 700;
 			}
 		}
 	}
 	.HeadingInformation:after {
-		display:block;
-		clear:both;
-		content : "";
+		display: block;
+		clear: both;
+		content: '';
 		position: relative;
-		left    : 0;
-		bottom  : 0;
+		left: 0;
+		bottom: 0;
 		// max-width:250px;
-		height  : 1px;
-		width   : 40%;  /* or 100px */
-		border-bottom:3px solid #3985e7;
-		margin:0 auto;
-		padding:4px 0px;
+		height: 1px;
+		width: 80%; /* or 100px */
+		border-bottom: 3px solid #3985e7;
+		margin: 0 auto;
+		padding: 4px 0px;
 	}
 }
 
-.col-details-l{
-    text-align: right;
+.col-details-l {
+	text-align: right;
 }
-.formHeading{
+.formHeading {
 	font-weight: 600 !important;
 }
 
-
-.social{
+.social {
 	background-color: #3985e7;
-	height:100%;
+	height: 100%;
 }
-
-
 
 .buttonD {
-    // background-color: red;
-    text-align: center;
-    margin-top: 10px;
-    @media only screen and (max-width: 768px) {
-        text-align: center;
-    }
+	// background-color: red;
+	text-align: center;
+	margin-top: 10px;
+	@media only screen and (max-width: 768px) {
+		text-align: center;
+		margin-top: 0px;
+	}
 	.buttonDetails {
-        border-radius: 30px 0 30px 0;
-        margin: 10px 5px;
-        background-color: #3985e7;
-        .buttonText {
-            color:white;
-            font-size: 1rem;
-            font-weight: 600;
-        }
+		border-radius: 30px 0 30px 0;
+		margin: 10px 5px;
+		@media only screen and (max-width: 768px) {
+		
+			margin: 0px;
+		}
+		background-color: #3985e7;
+		.buttonText {
+			color: white;
+			font-size: 1rem;
+			font-weight: 600;
+		}
 	}
 }
-
-
-.icon{
-	height:40px
+// .contact{
+// 	max-height:70vh;
+// }
+// .contactCard{
+// 	max-height:70vh;
+// }
+.icon {
+	height: 40px;
 }
