@@ -9,4 +9,17 @@
         visibility: hidden;
         display: none;
     }
+
+}
+
+.miniHeading{
+    text-align: center;
+    font-weight: 700;
+    color:#3985e7;
+    font-size:2rem;
+    @media only screen and (max-width:768px){
+        font-size: 1rem;
+        font-weight: 500;   
+
+    }
 }
