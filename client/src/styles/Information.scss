@@ -1,6 +1,10 @@
 .InformationOuter {
-height:92vh;
- 
+height:93vh;
+@media only screen and (max-width:768px){
+    height:100vh;
+    margin-bottom: 50px;
+
+}
 }
 
 .HeadingInformation{
@@ -54,7 +58,8 @@ height:92vh;
 
 }
 .grBOFc{
-    height:60vh;
+    height:100vh;
+    margin-bottom: 40px ;
 }
 .imYUvI{
     height:fit-content;
