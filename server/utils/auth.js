@@ -1,10 +1,10 @@
-const jwt = require("jsonwebtoken")
+const jwt = require('jsonwebtoken')
 
 const secret = process.env.JWT_SECRET
 
 const options = {
-	expiresIn: "2d",
-	issuer: "https://coronasahayata.github.io"
+	expiresIn: '2d',
+	issuer: 'https://coronasahayata.github.io'
 }
 
 const createToken = payload => {
