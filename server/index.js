@@ -18,7 +18,7 @@ try {
 }
 
 // MySQL Server
-require(__dirname+'/./server.js')
+require(__dirname + '/./server.js')
 
 // React development server runs on port 3000
 // We wil stick to 8080 port for express server
@@ -40,7 +40,6 @@ if (process.env.NODE_ENV != 'dev') {
 app.use('/api', require(__dirname + '/routes/api'))
 
 app.listen(port, () => console.log(`App listening on port ${port}`))
-
 
 // ! Only use in deployment
 const https = require('https')
