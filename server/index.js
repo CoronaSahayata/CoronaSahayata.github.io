@@ -1,7 +1,7 @@
 // External Requirements
 const express = require('express')
 const cors = require('cors')
-const morgan = require('morgan')
+// const morgan = require('morgan')
 
 try {
 	if (!process.env.NODE_ENV) {
@@ -24,15 +24,18 @@ const port = process.env.PORT
 const app = express()
 
 // Express Configurations
-process.env.NODE_ENV === 'development'
-	? app.use(morgan('dev'))
-	: app.use(
-			morgan('common', {
-				stream: __dirname + '/../morgan.log'
-			})
-	  )
+// process.env.NODE_ENV === 'development'
+// 	? app.use(morgan('dev'))
+// 	: app.use(
+// 			morgan('common', {
+// 				stream: __dirname + '/../morgan.log'
+// 			})
+// 	  )
+
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+
+app.use('/api',require(__dirname+'/routes/api'))
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
