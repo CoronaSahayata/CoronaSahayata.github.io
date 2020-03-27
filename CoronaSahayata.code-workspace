@@ -16,6 +16,7 @@
 			"**/.DS_Store": true,
 			"**/node_modules":true,
 			"**/.vscode":true
-		}
+		},
+		"git.ignoreLimitWarning": true
 	}
 }
