@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `district_master` (
 
 -- Data exporting was unselected.
 -- Dumping structure for table csdb.group
-CREATE TABLE IF NOT EXISTS `group` (
+CREATE TABLE IF NOT EXISTS `groups_table` (
   `group_id` varchar(30) NOT NULL,
   `group_name` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`group_id`)
