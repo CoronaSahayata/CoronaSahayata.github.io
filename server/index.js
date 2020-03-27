@@ -17,6 +17,9 @@ try {
 	})
 }
 
+// MySQL Server
+require(__dirname+'/./server.js')
+
 // React development server runs on port 3000
 // We wil stick to 8080 port for express server
 const port = process.env.PORT
