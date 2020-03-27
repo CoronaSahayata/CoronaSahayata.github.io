@@ -47,9 +47,9 @@ CREATE TABLE IF NOT EXISTS `district_master` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
--- Dumping structure for table csdb.group
-DROP TABLE IF EXISTS `group`;
-CREATE TABLE IF NOT EXISTS `group` (
+-- Dumping structure for table csdb.groups_table
+DROP TABLE IF EXISTS `groups_table`;
+CREATE TABLE IF NOT EXISTS `groups_table` (
   `group_id` varchar(30) NOT NULL,
   `group_name` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`group_id`)
