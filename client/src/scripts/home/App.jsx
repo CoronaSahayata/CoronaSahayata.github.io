@@ -5,6 +5,7 @@ import Stats from './Stats'
 import ContactDetails from './ContactDetails'
 import Details from './Details'
 import "../../styles/App.scss"
+import Footer from './Footer'
 class App extends Component {
 	render() {
 		return (
@@ -15,6 +16,7 @@ class App extends Component {
 				<Stats />
 				<ContactDetails />
 				<Details />
+				<Footer />
 				</div>
 			</React.Fragment>
 		)
