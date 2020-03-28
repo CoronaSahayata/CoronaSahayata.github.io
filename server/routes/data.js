@@ -149,4 +149,27 @@ app.get('/districts', async (req, res) => {
 	}
 })
 
+app.get('/district', async (req, res) => {
+	try {
+		if (req.body['district_id']) {
+			const district = await Districts.findOne({
+				where: { district_id: req.body['district_id'] }
+			})
+			if (district === null)
+				res.json({
+					status: 400,
+					error: true,
+					data: 'DistrictDoesNotExist'
+				})
+			res.send({ status: 200, error: false, data: district })
+		} else {
+			res.json({ state: 400, error: true, data: 'DistrictIdFieldMissing' })
+		}
+	} catch (err) {
+		res.json({ status: 500, error: true, data: err })
+		console.log(err)
+	}
+})
+
+
 module.exports = app

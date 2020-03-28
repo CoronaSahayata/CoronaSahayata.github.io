@@ -20,10 +20,10 @@ const GroupsTable = require(__dirname + '/./groups_table')(sequelize, Sequelize)
 const Login = require(__dirname + '/./login')(sequelize, Sequelize)
 const UserInfo = require(__dirname + '/./user_info')(sequelize, Sequelize)
 
-UserInfo.belongsTo(Login)
-Districts.belongsTo(States,{foreignKey:'state_state_id'})
-States.belongsTo(Countries,{foreignKey: 'country_country_id'})
-
+UserInfo.belongsTo(Login, { foreignKey: 'login_user_id' })
+UserInfo.hasOne(Districts, { foreignKey: 'district_master_district_id' })
+Districts.belongsTo(States, { foreignKey: 'state_state_id' })
+States.belongsTo(Countries, { foreignKey: 'country_country_id' })
 
 module.exports = {
 	Cities,
