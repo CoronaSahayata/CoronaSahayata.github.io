@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken')
 const secret = process.env.JWT_SECRET || 'okaish'
 
 const options = {
-	expiresIn: '24*60*60'
+	expiresIn: 24*60*60
 }
 
 const createToken = payload => {
@@ -17,7 +17,7 @@ const validateToken = token => {
 }
 
 ;(async () => {
-	const data = await createToken('password')
+	const data = await createToken({password:'password'})
 	console.log(data);
 })()
 
