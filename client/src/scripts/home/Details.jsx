@@ -30,7 +30,7 @@ class Details extends Component {
 															<MDBRow>
 																<MDBCol
 																	md='6'
-																	sm='12'
+																	sm='11'
 																>
 																	<MDBInput
 																		label='Your name'
@@ -44,7 +44,7 @@ class Details extends Component {
 																</MDBCol>
 																<MDBCol
 																	md='6'
-																	sm='12'
+																	sm='11'
 																>
 																	<MDBInput
 																		label='Phone Number'

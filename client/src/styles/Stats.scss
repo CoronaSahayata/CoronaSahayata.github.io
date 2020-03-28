@@ -1,9 +1,9 @@
 // @import "../assets/bg.png";
 .StatsOuter {
 	@media only screen and (max-width: 768px) {
-		height:140vh
+		height:120vh
 	}
-	height: 110vh;
+	height: 100vh;
 	text-align: center;
 	background-image: url('../assets/bg1.png');
 	// padding-bottom:20vh;
@@ -93,7 +93,7 @@
 }
 .column {
 	padding-right: 0px !important;
-	max-width: 90%;
+	max-width: 100%;
 }
 .rowStats {
 	// max-width: 95%;
@@ -129,9 +129,11 @@
 }
 .graph{
 	text-align: center;
+	margin: 0 auto;
 	width:100%;
 	@media only screen and (max-width: 768px) {
-		margin-left: 38px;
+		// margin-left: 5px;
+		margin-left:6vw;
 
 
 	}
@@ -142,11 +144,14 @@
 	margin-right: 0 !important;
 }
 .tableauViz{
-		width:90%;
+		width:100%;
 		height:60vh;
 		@media only screen and (max-width: 768px) {
-			width:100%;
-			height:40vh;
-
+			height:80vh;
 		}
+}
+
+
+.statsMain{
+	text-align: center;
 }

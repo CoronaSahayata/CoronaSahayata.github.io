@@ -1,6 +1,7 @@
 .upperOuter {
 	// background-color: #3985e7;
 	height: 100vh;
+
 	@media only screen and (min-width: 768px) {
 		// -webkit-clip-path: polygon(0 0, 40% 0, 63% 100%, 0 100%);
 		// clip-path: polygon(0 0, 40% 0, 63% 100%, 0 100%);
@@ -11,11 +12,14 @@
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	// max-width: 85%;
 	overflow: hidden;
 	// margin: 0 10px;
 	@media only screen and (max-width: 768px) {
-		text-align: center;
+		text-align: center !important;
+			margin :0 auto;
+	max-width: 100%;
+
+
 	}
 
 	.upperHeading {
@@ -25,6 +29,8 @@
 		font-weight: 200;
 		@media only screen and (max-width: 768px) {
 			font-size: 2rem !important;
+			margin:3vh 0 !important;
+			// max-width:90%;
 		}
 		.bold {
 			font-weight: 700;
@@ -36,9 +42,11 @@
 	}
 
 	.upperText {
-		margin-left: 10px;
+		// margin-left: 10px;
 		margin-bottom: 10px;
+		// max-width: 90%;
 		font-weight: 500;
+		padding:0 20px;
 		@media only screen and (max-width: 768px) {
 			font-size: 0.7rem !important;
 		}
@@ -57,8 +65,16 @@
 }
 .upperLeft {
 	padding: 0 !important;
+	
 }
 .out {
 	// background-color: #1d5296;
 	z-index: -99 !important;
+}
+
+.image{
+	// max-width: 90%;
+	margin-top: 3vh;
+
+
 }

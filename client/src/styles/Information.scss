@@ -41,7 +41,17 @@ height:93vh;
 .cardTitle{
     text-align: center;
     font-weight: 900;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
+}
+
+.subTitle{
+    font-size:1rem;
+    font-weight: 500;
+    @media only screen and (max-width:768px){
+        font-size: 0.8rem;
+        margin-top:10px;
+
+    }
 }
 .cardBody{
     // border: solid 1px black;
@@ -65,6 +75,6 @@ height:93vh;
     height:fit-content;
 }
 .CardText{
-    font-weight: 700 !important;
+    font-weight: 400 !important;
 
 }

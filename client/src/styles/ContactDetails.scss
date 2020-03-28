@@ -1,5 +1,7 @@
 .ContactDetails {
-    height: 60vh;
+	height: 60vh;
+	text-align: center;
+	overflow: hidden;
     @media only screen and (max-width: 768px) {
         height: 120vh;
     }
@@ -39,6 +41,7 @@
 	// background-color: red;
 	text-align: left;
 	margin-top: 10px;
+	// max-width: 90%;
 	@media only screen and (max-width: 768px) {
 		text-align: center;
 	}
@@ -93,4 +96,11 @@
             }
         }
     }
+}
+
+
+.contactPhone{
+	@media only screen and (max-width:768px)  {
+		max-width: 90%;
+	}
 }

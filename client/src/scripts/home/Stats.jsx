@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../../styles/Stats.scss'
-import { MDBRow, MDBCol, MDBCard, MDBCardTitle, MDBCardText } from 'mdbreact'
+import { MDBRow, MDBCol} from 'mdbreact'
 // import Graph from '../../assets/stats.png'
 
 class Stats extends Component {
@@ -16,7 +16,7 @@ class Stats extends Component {
 
 					<div className='statsMain container'>
 						<MDBRow className='mainCards'>
-							<MDBCol sm='12' md='7' className='column'>
+							<MDBCol sm='12'className='column'>
 								<div className='graph img-fluid' fluid>
 									<div
 										class='tableauPlaceholder'
@@ -80,78 +80,7 @@ class Stats extends Component {
 									</div>
 								</div>
 							</MDBCol>
-							<MDBCol
-								sm='12'
-								md='4'
-								className='column NumberCards'
-							>
-								<MDBCard
-									className='card-body statsNumberCard'
-									style={{
-										// width: '22rem',
-										marginTop: '1rem'
-									}}
-								>
-									<MDBCardTitle className='Number'>
-										9999999
-									</MDBCardTitle>
-									<MDBCardText className='text'>
-										Active Cases
-									</MDBCardText>
-									<div className='flex-row'>
-										<div className='PanelNumber'>
-											Updated : 9 minutes ago{' '}
-										</div>
-									</div>
-								</MDBCard>
-
-								<MDBCard
-									className='card-body statsNumberCard  statsNumberCard1'
-									style={{
-										// width: '22rem',
-										marginTop: '1rem'
-									}}
-								>
-									<MDBCardTitle className='Number'>
-										9999999
-									</MDBCardTitle>
-									<MDBCardText className='text'>
-										Active Cases
-									</MDBCardText>
-									<div className='flex-row'>
-										<div className='PanelNumber'>
-											Updated : 9 minutes ago{' '}
-										</div>
-									</div>
-								</MDBCard>
-
-								<MDBCard
-									className='card-body statsNumberCard'
-									style={{
-										// width: '22rem',
-										marginTop: '1rem'
-									}}
-								>
-									<MDBCardTitle className='Number'>
-										9999999
-									</MDBCardTitle>
-									<MDBCardText className='text'>
-										Active Cases
-									</MDBCardText>
-									<div className='flex-row'>
-										<div className='PanelNumber'>
-											Updated : 9 minutes ago{' '}
-										</div>
-									</div>
-								</MDBCard>
-								<div className='button'>
-									<button className='btn-lg btn buttonStats'>
-										<span className='buttonText'>
-											Discover
-										</span>
-									</button>
-								</div>
-							</MDBCol>
+						
 						</MDBRow>
 					</div>
 				</div>
