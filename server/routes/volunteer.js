@@ -8,7 +8,7 @@ app.post('/signup', async (req, res) => {
 	try {
 		let user_id = req.body['username']
 		if (user_id === '') {
-			res.json({ status: 400, error: false, data: 'UsernameEmpty' })
+			res.json({ status: 400, error: true, data: 'UsernameEmpty' })
 			return
 		}
 		const data = await Login.findOne({
@@ -18,7 +18,7 @@ app.post('/signup', async (req, res) => {
 		if (data === null) {
 			let password = req.body['password']
 			if (password === '') {
-				res.json({ status: 400, error: false, data: 'PasswordEmpty' })
+				res.json({ status: 400, error: true, data: 'PasswordEmpty' })
 				return
 			}
 
@@ -37,18 +37,19 @@ app.post('/signup', async (req, res) => {
 			else
 				res.json({
 					status: 500,
-					error: false,
+					error: true,
 					data: 'InternalServerError'
 				})
 			return
 		} else {
-			res.json({ status: 403, error: false, data: 'UsernameExists' })
+			res.json({ status: 403, error: true, data: 'UsernameExists' })
 			return
 		}
-	} catch (error) {
+	} catch (err) {
 		res.json({
 			status: 500,
-			error: err
+			error: true,
+			data: err
 		})
 		console.log(error)
 	}
@@ -58,19 +59,19 @@ app.post('/login', async (req, res) => {
 	try {
 		let user_id = req.body['username']
 		if (user_id === '') {
-			res.json({ status: 400, error: false, data: 'UsernameEmpty' })
+			res.json({ status: 400, error: true, data: 'UsernameEmpty' })
 			return
 		}
 		const loginData = await Login.findOne({
 			where: { user_id: user_id }
 		})
 		if (loginData === null) {
-			res.json({ status: 417, error: false, data: 'UserDoesNotExists' })
+			res.json({ status: 417, error: true, data: 'UserDoesNotExists' })
 			return
 		} else {
 			let password = req.body['password']
 			if (password === '') {
-				res.json({ status: 400, error: false, data: 'PasswordEmpty' })
+				res.json({ status: 400, error: true, data: 'PasswordEmpty' })
 				return
 			}
 			const data = await bcrypt.compare(
@@ -78,11 +79,13 @@ app.post('/login', async (req, res) => {
 				loginData.get('password')
 			)
 			if (data === true) {
-				res.json({ status: 200, error: false })
+				const auth = require(__dirname + '/../utils/auth.js')
+				const token = await auth.createToken({ user_id: user_id })
+				res.json({ status: 200, error: false, token: token })
 			} else {
 				res.json({
 					status: 403,
-					error: false,
+					error: true,
 					data: 'WrongUsernameOrPassword'
 				})
 			}
@@ -95,6 +98,15 @@ app.post('/login', async (req, res) => {
 		})
 		console.log(err)
 	}
+})
+
+const validateToken = require(__dirname + '/../middlewares/validateToken.js')
+app.post('/validate', validateToken, (req, res) => {
+	console.log(req.body)
+	if(req.body['username']){
+		res.json({status:200,data:true})
+	}
+	else{res.json({status:400,error:true,data:'UsernameMissing'})}
 })
 
 module.exports = app
