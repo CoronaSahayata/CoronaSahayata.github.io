@@ -20,6 +20,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: true
     }
   }, {
-    tableName: 'country_master'
+    tableName: 'country_master',
+    timestamps: false
   });
 };

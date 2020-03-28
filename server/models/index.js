@@ -22,7 +22,7 @@ const UserInfo = require(__dirname + '/./user_info')(sequelize, Sequelize)
 
 UserInfo.belongsTo(Login)
 Districts.belongsTo(States)
-States.belongsTo(Countries)
+States.belongsTo(Countries,{foreignKey: 'country_country_id'})
 
 
 module.exports = {

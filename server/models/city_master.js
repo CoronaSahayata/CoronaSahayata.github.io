@@ -12,6 +12,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: true
     }
   }, {
-    tableName: 'city_master'
+    tableName: 'city_master',
+    timestamps:false
   });
 };

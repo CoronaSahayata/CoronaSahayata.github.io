@@ -21,6 +21,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     }
   }, {
-    tableName: 'state_master'
+    tableName: 'state_master',
+    timestamps:false
   });
 };

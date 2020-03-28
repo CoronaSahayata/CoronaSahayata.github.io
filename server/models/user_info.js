@@ -60,6 +60,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     }
   }, {
-    tableName: 'user_info'
+    tableName: 'user_info',
+    timestamps:false
   });
 };

@@ -21,6 +21,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     }
   }, {
-    tableName: 'district_master'
+    tableName: 'district_master',
+    timestamps:false
   });
 };
