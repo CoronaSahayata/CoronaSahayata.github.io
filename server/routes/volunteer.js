@@ -80,7 +80,10 @@ app.post('/login', async (req, res) => {
 			)
 			if (data === true) {
 				const auth = require(__dirname + '/../utils/auth.js')
-				const token = await auth.createToken({ user_id: user_id })
+				const token = await auth.createToken(
+					{ user_id: user_id },
+					user_id
+				)
 				res.json({ status: 200, error: false, token: token })
 			} else {
 				res.json({
@@ -102,11 +105,11 @@ app.post('/login', async (req, res) => {
 
 const validateToken = require(__dirname + '/../middlewares/validateToken.js')
 app.post('/validate', validateToken, (req, res) => {
-	console.log(req.body)
-	if(req.body['username']){
-		res.json({status:200,data:true})
+	if (req.body['username']) {
+		res.json({ status: 200, data: true })
+	} else {
+		res.json({ status: 400, error: true, data: 'UsernameMissing' })
 	}
-	else{res.json({status:400,error:true,data:'UsernameMissing'})}
 })
 
 module.exports = app
