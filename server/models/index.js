@@ -21,7 +21,7 @@ const Login = require(__dirname + '/./login')(sequelize, Sequelize)
 const UserInfo = require(__dirname + '/./user_info')(sequelize, Sequelize)
 
 UserInfo.belongsTo(Login)
-Districts.belongsTo(States)
+Districts.belongsTo(States,{foreignKey:'state_state_id'})
 States.belongsTo(Countries,{foreignKey: 'country_country_id'})
 
 

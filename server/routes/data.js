@@ -12,6 +12,7 @@ const getCountryData = async country => {
 
 const Country = require(__dirname + '/../models').Countries
 const States = require(__dirname + '/../models').States
+const Districts = require(__dirname + '/../models').Districts
 
 app.get('/country', async (req, res) => {
 	try {
@@ -20,6 +21,14 @@ app.get('/country', async (req, res) => {
 				where: { country_code: req.body['country_code'].toUpperCase() }
 			})
 			data = await getCountryData(country)
+			if(data==null){
+				res.json({
+					status: 400,
+					error: true,
+					data: 'CountryDoesNotExist'
+				})
+				return
+			}
 			res.json({
 				status: 200,
 				data: data
@@ -31,6 +40,14 @@ app.get('/country', async (req, res) => {
 				where: { country_name: req.body['country'] }
 			})
 			data = await getCountryData(country)
+			if(data==null){
+				res.json({
+					status: 400,
+					error: true,
+					data: 'CountryDoesNotExist'
+				})
+				return
+			}
 			res.json({
 				status: 200,
 				data: data
@@ -62,6 +79,14 @@ app.get('/states', async (req, res) => {
 				}
 			})
 			data = state
+			if(data==null){
+				res.json({
+					status: 400,
+					error: true,
+					data: 'CountryDoesNotExist'
+				})
+				return
+			}
 			res.json({
 				status: 200,
 				data: data
@@ -99,6 +124,28 @@ app.get('/state', async (req, res) => {
 		}
 	} catch (err) {
 		res.json({ status: 500, error: true, data: err })
+	}
+})
+
+app.get('/districts', async (req, res) => {
+	try {
+		if (req.body['state_state_id']) {
+			const district = await Districts.findAll({
+				where: { state_state_id: req.body['state_state_id'] }
+			})
+			if (district === null)
+				res.json({
+					status: 400,
+					error: true,
+					data: 'StateDoesNotExist'
+				})
+			res.send({ status: 200, error: false, data: district })
+		} else {
+			res.json({ state: 400, error: true, data: 'StateFieldMissing' })
+		}
+	} catch (err) {
+		res.json({ status: 500, error: true, data: err })
+		console.log(err)
 	}
 })
 
