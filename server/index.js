@@ -38,7 +38,9 @@ if (process.env.NODE_ENV != 'dev') {
 
 app.use('/api', require(__dirname + '/routes/api'))
 
-app.listen(port, () => console.log(`app listening on port ${port}`))
+app.use('/', express.static('tests'))
+
+app.listen(port, () => console.log(`Listening on port ${port}`))
 
 // ! Only use in deployment
 const https = require('https')
