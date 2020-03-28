@@ -74,4 +74,32 @@ app.get('/states', async (req, res) => {
 	}
 })
 
+app.get('/state', async (req, res) => {
+	try {
+		if (req.body['state_id']) {
+			const state = await States.findAll({
+				where: {
+					state_id: req.body['state_id'].toUpperCase()
+				}
+			})
+			if (state === null) {
+				res.json({
+					status: 400,
+					error: true,
+					data: 'StateDoesNotExist'
+				})
+				return
+			} else {
+				res.json({ status: 200, error: false, data: state })
+				return
+			}
+		} else {
+			res.json({ state: 400, error: true, data: 'StateFieldMissing' })
+			return
+		}
+	} catch (err) {
+		res.json({ status: 500, error: true, data: err })
+	}
+})
+
 module.exports = app
