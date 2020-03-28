@@ -8,7 +8,7 @@ class Stats extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<div className='StatsOuter '>
+				<div className='StatsOuter ' >
 					<div className='miniHeading'>Look and Learn</div>
 					<div className='HeadingStats'>
 						<span className='Heading'>Current Scenario</span>
@@ -16,8 +16,8 @@ class Stats extends Component {
 
 					<div className='statsMain container'>
 						<MDBRow className='mainCards'>
-							<MDBCol sm='12' md='8' className='column'>
-								<div className='graph img-fluid'>
+							<MDBCol sm='12' md='7' className='column'>
+								<div className='graph img-fluid' fluid>
 									<div
 										class='tableauPlaceholder'
 										id='viz1585339255136'
@@ -28,13 +28,13 @@ class Stats extends Component {
 									>
 										<noscript>
 											<a href='#!'>
-												<img class = "ing-fluid"
+												<img class = "img-fluid"
 													alt=' '
 													src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;T7&#47;T797P95WD&#47;1_rss.png'
 													style={{border: "none"}}
 												/>
 											</a>
-										</noscript>
+										</noscript>	
 										<object
 											class='tableauViz'
 											style={{display:"none"}}
