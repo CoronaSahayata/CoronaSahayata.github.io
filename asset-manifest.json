@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.38f266e6.chunk.css",
-    "main.js": "/static/js/main.7eaf89f6.chunk.js",
-    "main.js.map": "/static/js/main.7eaf89f6.chunk.js.map",
+    "main.css": "/static/css/main.e8d312a1.chunk.css",
+    "main.js": "/static/js/main.889aa2eb.chunk.js",
+    "main.js.map": "/static/js/main.889aa2eb.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.310f8b6a.chunk.css": "/static/css/2.310f8b6a.chunk.css",
-    "static/js/2.b807d892.chunk.js": "/static/js/2.b807d892.chunk.js",
-    "static/js/2.b807d892.chunk.js.map": "/static/js/2.b807d892.chunk.js.map",
+    "static/js/2.376cfa7e.chunk.js": "/static/js/2.376cfa7e.chunk.js",
+    "static/js/2.376cfa7e.chunk.js.map": "/static/js/2.376cfa7e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.028c695df75a3c03da5037e4aabcc5a1.js": "/precache-manifest.028c695df75a3c03da5037e4aabcc5a1.js",
+    "precache-manifest.3c128ecd14627ce6730e53a117049b14.js": "/precache-manifest.3c128ecd14627ce6730e53a117049b14.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.310f8b6a.chunk.css.map": "/static/css/2.310f8b6a.chunk.css.map",
-    "static/css/main.38f266e6.chunk.css.map": "/static/css/main.38f266e6.chunk.css.map",
+    "static/css/main.e8d312a1.chunk.css.map": "/static/css/main.e8d312a1.chunk.css.map",
     "static/media/Information1.png": "/static/media/Information1.57471382.png",
     "static/media/Information2.png": "/static/media/Information2.859dff05.png",
     "static/media/Information3.png": "/static/media/Information3.e376b3a2.png",
     "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
     "static/media/Upper.png": "/static/media/Upper.3532fbc7.png",
     "static/media/Details.scss": "/static/media/bg.2a8a8a0d.png",
-    "static/media/Stats.scss": "/static/media/bg1.c42bad56.png",
-    "static/media/stats.png": "/static/media/stats.43f8b431.png"
+    "static/media/Stats.scss": "/static/media/bg1.c42bad56.png"
   }
 }
