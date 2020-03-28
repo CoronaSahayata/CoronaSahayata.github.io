@@ -1,10 +1,9 @@
 const jwt = require('jsonwebtoken')
 
-const secret = process.env.JWT_SECRET
+const secret = process.env.JWT_SECRET || 'okaish'
 
 const options = {
-	expiresIn: '2d',
-	issuer: 'https://coronasahayata.github.io'
+	expiresIn: '24*60*60'
 }
 
 const createToken = payload => {
@@ -16,5 +15,10 @@ const validateToken = token => {
 	const result = jwt.verify(token, secret, options)
 	return result
 }
+
+;(async () => {
+	const data = await createToken('password')
+	console.log(data);
+})()
 
 module.exports = { createToken, validateToken }

@@ -2,8 +2,6 @@ const express = require('express')
 
 const app = express.Router()
 
-app.get('/', (req, res) => {
-	res.send('ok')
-})
+app.use('/volunteer', require(__dirname+'/./volunteer'))
 
 module.exports = app

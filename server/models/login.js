@@ -26,6 +26,7 @@ module.exports = function(sequelize, DataTypes) {
       defaultValue: sequelize.literal('CURRENT_TIMESTAMP')
     }
   }, {
-    tableName: 'login'
+    tableName: 'login',
+    timestamps: false
   });
 };
