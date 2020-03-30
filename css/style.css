@@ -958,3 +958,9 @@ blockquote {
 
 
 a { color: #fff; }
+.buttonText{
+  font-size: 10px !important;
+}
+.linkAbout{
+  color: black;
+}
