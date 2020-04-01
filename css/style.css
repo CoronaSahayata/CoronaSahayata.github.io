@@ -958,6 +958,9 @@ blockquote {
 
 
 a { color: #fff; }
+.cardbuttons{
+  color: #41228e;
+}
 .buttonText{
   font-size: 10px !important;
 }
