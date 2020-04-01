@@ -1004,3 +1004,7 @@ text-align: center;
 .divcol{
   text-align: center !important;
 }
+
+.pillButton:hover{
+  color:white;
+}
