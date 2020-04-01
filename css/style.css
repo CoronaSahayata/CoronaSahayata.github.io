@@ -38,7 +38,7 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "montserrat", serif !important;
+  font-family: "montserrat"!important;
   line-height: 1.2;
 }
 
@@ -963,4 +963,41 @@ a { color: #fff; }
 }
 .linkAbout{
   color: black;
+}
+
+.pillButton{
+  background-color: #41228e;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+@media (max-width:768px){
+  .buttonName{
+    font-size: 0.6rem !important;
+  }
+}
+.Tabtitle{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+  margin-top:20px;
+  font-family: "montserrat"!important;
+
+}
+.rwd-line{
+  /* width:70vw;   */
+  
+  word-wrap:break-word;
+}
+
+.buttonName{
+/* display: block; */
+font-size: 0.9rem;
+margin: 5px 0 !important;
+text-align: center;
+
+}
+.divcol{
+  text-align: center !important;
 }
