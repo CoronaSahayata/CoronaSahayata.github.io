@@ -978,6 +978,13 @@ a { color: #fff; }
   .buttonName{
     font-size: 0.6rem !important;
   }
+.logo{
+  width:20% !important;
+}
+.navbar{
+  text-align: center !important;
+}
+
 }
 .Tabtitle{
   font-size: 2rem;
@@ -1008,3 +1015,4 @@ text-align: center;
 .pillButton:hover{
   color:white;
 }
+.logo{width:10%;}
