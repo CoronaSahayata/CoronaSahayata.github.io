@@ -1019,3 +1019,6 @@ text-align: center;
 .table{
   height: 40vh;
 }
+.white-text{
+  color: white;
+}
