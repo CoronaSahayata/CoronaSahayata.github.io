@@ -7,7 +7,7 @@
     "axios": "^0.21.1",
     "express": "^4.16.4",
     "mdbreact": "^4.14.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "query-string": "^6.6.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
